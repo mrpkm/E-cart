@@ -1,0 +1,66 @@
+img {
+  width: 100%;
+  height: 100%;
+}
+.details {
+  /* border: 2px solid red; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.details h1 {
+  font-size: 3rem;
+}
+.details .hr {
+  width: 100%;
+  background-color: black;
+  border: 2px solid black;
+  margin-bottom: 3rem;
+}
+.details .detailsItem {
+  display: flex;
+  border: 2px solid rgb(6, 6, 6);
+  width: 60%;
+  height: 60vh;
+}
+.details .left {
+  width: 40%;
+  height: inherit;
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.details .left .image {
+  width: 80%;
+  height: 80%;
+}
+.details .right {
+  width: 60%;
+  height: inherit;
+  /* border: 3px solid black; */
+  padding: 10px;
+  text-align: left;
+}
+.details h2,
+h4,
+p {
+  padding: 6px 5px;
+}
+
+.details button {
+  width: 8rem;
+  height: 2rem;
+  padding: 5px 10px;
+  margin: 5px 10px;
+  font-size: 1.2rem;
+}
+.details .lest-btn {
+  display: flex;
+  justify-content: space-around;
+}
+.details .lest-btn button {
+  width: 10rem;
+}

@@ -1,0 +1,12 @@
+.sign {
+  display: flex;
+  background-color: red;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  h1 {
+    font-size: 3rem;
+    color: green;
+  }
+}

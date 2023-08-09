@@ -1,0 +1,33 @@
+.paymentAll {
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .paymentPage {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    border: 2px solid black;
+    justify-content: space-around;
+
+    .address {
+      width: 60%;
+      display: flex;
+      justify-content: flex-start;
+      padding-left: 30px;
+
+      form {
+        border: 2px solid red;
+      }
+    }
+    .checkToCart {
+      width: 30%;
+
+      .checkOut{
+        width: fit-content;
+        padding: 10px 15px;
+      }
+    }
+  }
+}
